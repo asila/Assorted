@@ -275,3 +275,4 @@ ggsave(file = "~/Towett/Figs/ggpubr/Te_concentration.png", height = 4, width = 4
 ggsave(file = "~/Towett/Figs/ggpubr/Elemental.concentrations.png", height = 9, width = 12,grid.arrange(zn,ca,zr,cr,cr1, te, ncol= 3, nrow=2,top = textGrob("Elemental Concentrations",gp=gpar(fontsize=20,font=3))))
 
 
+# Next we need to ensure regression line passes through the origin.
