@@ -6,7 +6,7 @@
 # 5. grid
 # 6. gridExtra
 
-# To install use: install.packages(c(,,,,)) syntax
+# To install use: install.packages(c(,,,,)) syntax each comma is preceeded by a package name required to be installed.
 
 library(ggstatsplot)
 
